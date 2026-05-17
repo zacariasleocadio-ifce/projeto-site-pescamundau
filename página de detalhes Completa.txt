@@ -1,0 +1,22 @@
+<section class="categoria-pesca">
+            <h3>Molinetes</h3>
+            <p>Os nossos molinetes são conhecidos por sua durabilidade e desempenho, proporcionando uma experiência de pesca excepcional.</p>
+        </section>
+
+        <section class="categoria-pesca">
+            <h3>Carretilhas</h3>
+            <p>Nossas carretilhas são projetadas para oferecer controle e precisão, perfeitas para pescadores que buscam desempenho superior.</p>
+        </section>
+
+        <section class="categoria-pesca">
+            <h3>Linhas de Pesca</h3>
+            <p>Oferecemos uma variedade de linhas de pesca, incluindo monofilamento e multifilamento, para atender às necessidades de todos os pescadores.</p>
+        </section>
+
+        <section class="categoria-pesca">
+            <h3>Iscas Artificiais</h3>
+            <p>Nossas iscas artificiais são desenvolvidas com materiais de alta qualidade, proporcionando uma excelente atratividade para os peixes.</p>
+        </section>
+        <section class="categoria-pesca">
+            <h3>Acessórios de Pesca</h3>
+            <p>Oferecemos uma ampla seleção de acessórios para complementar sua experiência de pesca.</p>
