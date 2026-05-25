@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de materiais para pesca esportiva.">
+    <meta name="author" content="Zacarias Leocadio">
+    <meta name="keywords" content="Pesca esportiva, vara, molinete, carretilha, linha de pesca, monofilamento, multifilamento">
+    <title>FishPro - Início</title>
+    
+</head>
+<body>
+    <header>
+        <h1>FishPro</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../detalhes.html">Detalhes</a></li>
+                <li><a href="../admin/cadastro_produtos.html">Cadastro de Produtos</a></li>
+                <li><a href="../admin/cadastro_clientes.html">Cadastro de Clientes</a></li>
+                <li><a href="../sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Novo Cliente</h2>
+            <form class="formulario-cliente">
+                <div class="campo-grupo">
+                    <input type="text" id="nome-cliente" placeholder="Nome Completo" required>
+                </div>             
+                <div class="campo-grupo">
+                    <input type="email" id="email-cliente" placeholder="E-mail" required>
+                </div>             
+                <div class="campo-grupo">
+                    <input type="tel" id="telefone-cliente" placeholder="Telefone" required>
+                </div>
+                <div class="campo-grupo">
+                    <input type="text" id="cpf-cliente" placeholder="CPF" required>
+                </div>
+                <div class="campo-grupo">
+                    <input type="text" id="endereco-cliente" placeholder="Endereço" required>
+                </div>
+                <div class="campo-grupo-duplo">
+                    <input type="text" id="cidade-cliente" placeholder="Cidade" required>
+                    <input type="text" id="estado-cliente" placeholder="Estado" required>
+                </div>           
+                <div class="campo-grupo">
+                    <input type="text" id="cep-cliente" placeholder="CEP" required>
+                </div>             
+                <button type="submit" class="botao-cadastrar">
+                    <span>+</span> CADASTRAR
+                </button>
+            </form>
+        </section>              
+        <section class="lista-clientes">
+            <h2>Clientes Cadastrados</h2>           
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome Completo</th>
+                        <th>E-mail</th>
+                        <th>Telefone</th>
+                        <th>CPF</th>
+                        <th>Endereço</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>CEP</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>                   
+                    <tr>
+                        <td>Zacarias Leocádio da Silva</td>
+                        <td>zacarias@email.com</td>
+                        (85) 99999-9999
+                        <td>123.456.789-00</td>
+                        <td>Rua Baixa Grande, 100</td>
+                        <td>Trairi</td>
+                        <td>CE</td>
+                        <td>62690-000</td>
+                        <td>
+                            <button type="button">Editar</button>
+                            <button type="button">Excluir</button>
+                        </td>
+                    </tr>                 
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+       <footer>
+        <p>&copy; 2026 FishPro. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a href="autor.html">Zacarias Leocadio</a></p>
+    </footer>  
+</body>
+</html>
