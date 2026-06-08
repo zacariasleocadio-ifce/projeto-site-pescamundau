@@ -1,0 +1,12 @@
+/* O asterisco aplica a regra a TODOS os elementos do site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que bordas e paddings não quebrem o tamanho dos blocos */
+}
+
+/* Define configurações globais para o corpo da página */
+body {
+    background-color: #f4f7f6; /* Define uma cor de fundo suave */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão limpa */
+}
