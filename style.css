@@ -1,0 +1,19 @@
+/* O asterisco aplica a regra a TODOS os elementos do site */
+* {
+    margin: 0.5;
+    padding: 0;
+    box-sizing: border-box; /* Garante que bordas e paddings não quebrem o tamanho dos blocos */
+}
+head :hover {
+    color: #0c20a3; /* Define a cor do texto ao passar o mouse sobre os elementos do cabeçalho */
+}
+/* Define configurações globais para o corpo da página */
+body {
+    background-color: #f6f8f8; /* Define uma cor de fundo suave */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão limpa */
+}
+h2 {
+    color: #0c20a3; /* Define a cor do texto dos títulos */
+    margin-bottom: 10px; /* Adiciona espaço abaixo dos títulos */
+    text-align: center; /* Centraliza o texto dos títulos */
+}

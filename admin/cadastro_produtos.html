@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de materiais para pesca esportiva.">
+    <meta name="author" content="Zacarias Leocadio">
+    <meta name="keywords" content="Pesca esportiva, vara, molinete, carretilha, linha de pesca, monofilamento, multifilamento">
+    <title>FishPro - Início</title>
+    
+</head>
+<body>
+    <header>
+        <h1>FishPro</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../detalhes.html">Detalhes</a></li>
+                <li><a href="../admin/cadastro_produtos.html">Cadastro de Produtos</a></li>
+                <li><a href="../admin/cadastro_clientes.html">Cadastro de Clientes</a></li>
+                <li><a href="../sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section aria-labelledby="titulo-cadastro">
+            <h2 id="titulo-cadastro">Cadastro de Produtos</h2>
+            <form class="formulario-cadastro">
+                
+                <div class="campo-grupo">
+                    <label for="nome-produto">Nome do Produto</label>
+                    <input type="text" id="nome-produto" required>
+                </div>
+                
+                <div class="campo-grupo">
+                    <label for="categoria-produto">Categoria</label>
+                    <select id="categoria-produto" required>
+                        <option value="" disabled selected hidden>Selecione uma categoria</option>
+                        <option value="varas">Varas de Pesca</option>
+                        <option value="molinetes">Molinetes</option>
+                        <option value="carretilhas">Carretilhas</option>
+                        <option value="linhas">Linhas de Pesca</option>
+                        <option value="iscas">Iscas Artificiais</option>
+                        <option value="acessorios">Acessórios de Pesca</option>
+                    </select>
+                </div>
+                
+                <div class="campo-grupo">
+                    <label for="preco-produto">Preço (R$)</label>
+                    <input type="number" id="preco-produto" step="0.01" placeholder="0,00" required>
+                </div>
+                
+                <div class="campo-grupo">
+                    <label for="estoque-produto">Estoque (Quantidade)</label>
+                    <input type="number" id="estoque-produto" placeholder="Ex: 10" required>
+                </div>
+                
+                <div class="campo-grupo">
+                    <label for="descricao-produto">Descrição do Produto</label>
+                    <textarea id="descricao-produto" rows="4" required></textarea>
+                </div>
+                
+                <div class="campo-grupo">
+                    <label for="url-imagem">Link/URL da Imagem</label>
+                    <input type="url" id="url-imagem" placeholder="https://..." required>
+                </div>
+                
+                <button type="submit" class="botao-cadastrar">
+                    <span class="icone-mais">+</span> CADASTRAR
+                </button>
+            </form>
+        </section>
+
+        <section class="lista-produtos">
+            <h2>Produtos Cadastrados</h2>  
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome do Produto</th>
+                        <th>Categoria</th>
+                        <th>Preço (R$)</th>
+                        <th>Estoque</th>
+                        <th>Descrição</th>
+                        <th>Imagem</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vara Ágata Albatroz</td>
+                        <td>Varas de Pesca</td>
+                        <td>45,99</td>
+                        <td>15</td>
+                        <td>Vara de pesca com ação média e material em fibra de carbono.</td>
+                        <td><img src="./assets/vara-agata-albatroz.jpeg" alt="Vara Ágata" width="50"></td>
+                        <td>
+                            <button type="button">Editar</button>
+                            <button type="button">Excluir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+       <footer>
+        <p>&copy; 2026 FishPro. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a href="autor.html">Zacarias Leocadio</a></p>
+    </footer>  
+</body>
+</html>
